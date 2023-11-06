@@ -438,6 +438,15 @@ color: #F4F4FD;
     width: 100%;
     height: 100%;
     background-color: rgba(46, 47, 66, 0.40);
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: opacity 250ms linear, visibility 250ms linear;
+}
+.backdrop.is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
 }
 /*=======/BACKDROP STYLES========*/
 
@@ -450,6 +459,7 @@ color: #F4F4FD;
     min-height: 584px;
     border-radius: 4px;
     background-color: #FCFCFC;
+    
 }
 .modal-close-btn {
     display: flex;
@@ -468,6 +478,7 @@ color: #F4F4FD;
 .modal-close-btn-icon {
     fill: #2E2F42;
 }
+.modal-close-btn:hover .modal-close-btn-icon,
 .modal-close-btn:hover .modal-close-btn-icon {
     fill: #FFFFFF;
 }
@@ -477,6 +488,17 @@ color: #F4F4FD;
     height: 24px;
     top: 24px;
     right: 24px;
+}
+.modal-window-text {
+    width: 360px;
+    height: 24px;
+    margin: 72px 24px 16px 24px;
+    padding-left: 16px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
 } 
 
 
