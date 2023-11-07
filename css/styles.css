@@ -374,13 +374,14 @@ margin-right: auto;
 .footer-container {
     display: flex;
     align-items: baseline;
-    gap: 120px;
+    justify-content: space-between;
+    gap: 80px;
 }
 .page-footer .accent {
     color: #f4f4fd;
 }
 .footer-logotype-box {
-    margin-right: 120px;
+    margin-right: 80px;
 }
 .page-footer-text {
 font-size: 16px;
@@ -427,7 +428,33 @@ color: #F4F4FD;
 .footer-icon-link:focus {
     background-color: #31D0AA;
 }
-/*========FOOTER STYLES========*/
+.footer-form-subscribe {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFF;
+    margin-bottom: 16px;
+}
+.footer-form {
+    display: flex;
+    gap: 24px;
+}
+.footer-form-input {
+    width: 264px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid #FFF;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    padding-left: 16px;
+    background-color: transparent;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 2.0;
+    letter-spacing: 0.04em;
+}
+/*=======/FOOTER STYLES========*/
 
 /*========BACKDROP STYLES========*/
 .backdrop {
