@@ -451,10 +451,40 @@ color: #F4F4FD;
     color: #FFF;
     font-size: 12px;
     font-weight: 400;
-    line-height: 2.0;
+    line-height: 1.5;
     letter-spacing: 0.04em;
 }
+.footer-form-input::placeholder {
+    color:#FFF;
+}
+.footer-form-button {
+    display: flex;
+    gap: 16px;
+    height: 40px;
+    padding: 8px 24px;;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    background: #4D5AE5;
+    font-family: "Roboto", sans-serif; 
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #FFF;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border: none;
+}
+.footer-form-button:hover,
+.footer-form-button:focus {
+    background-color: #404bbf;
+}
+.footer-form-button-icon {
+    margin-left: 16px;
+}
 /*=======/FOOTER STYLES========*/
+
+
 
 /*========BACKDROP STYLES========*/
 .backdrop {
