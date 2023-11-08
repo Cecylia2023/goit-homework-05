@@ -612,6 +612,9 @@ color: #8E8F99;
 .modal-form-input:focus + .modal-form-input-icon {
     fill: #4D5AE5;
 }
+.modal-form-wrapper-comment {
+    margin-bottom: 16px;
+}
 
 .modal-form-description {
     width: 100%;
